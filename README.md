@@ -2,7 +2,7 @@
 
 Data and code for 
 
-> Kristof, V., Grossglauser, M., Thiran, P., *War of Words: The Competitive Dynamics of Legislative Processes*, The Web Conference, 20-24 April 2020, Taipei, Taiwan
+> Kristof, V., Grossglauser, M., Thiran, P., *War of Words: The Competitive Dynamics of Legislative Processes*, The Web Conference, April 20-24, 2020, Taipei, Taiwan
 
 ## Data
 
