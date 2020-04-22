@@ -17,19 +17,25 @@ pip install -e lib
 
 Download the (raw) data from https://zenodo.org/record/3757714#.Xp3QTi_M0Wo.
 
-## Data processing
+## Processing
 
-Process the (raw) data to use them as input to the models.
+Process the (raw) data for the model.
 
-To reproduce the results in the paper, you can run:
+To reproduce the results in the paper (filter out dossiers and MEPs with less than 10 edits, split 70/30 for training/testing, fix the random seed), run:
 
 ```
-python meps_only.py path/to/war-of-words-ep7.txt
-output/processed/meponly-ep7.pkl --threshold
-10 --split 0.7 --seed 0
-python rapporteur_advantage.py path/to/war-of-words-ep7.txt
-output/processed/rapadv-ep7.pkl --threshold
-10 --split 0.7 --seed 0
+python meps_only.py \
+  path/to/war-of-words-ep7.txt \
+  output/processed/meponly-ep7.pkl \
+  --threshold 10 \
+  --split 0.7 \
+  --seed 0
+python rapporteur_advantage.py \
+  path/to/war-of-words-ep7.txt \
+  output/processed/rapadv-ep7.pkl \
+  --threshold 10 \
+  --split 0.7 \
+  --seed 0
 ```
 
 This should have generated four pickle files:
