@@ -15,7 +15,7 @@ pip install -e lib
 
 ## Data
 
-Download the (raw) data from https://zenodo.org/record/3757714#.Xp3QTi_M0Wo.
+Download the (raw) data from https://zenodo.org/record/3757714.
 
 ## Processing
 
