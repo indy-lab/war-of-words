@@ -87,12 +87,12 @@ To train the models (`WoW` and `WoW(R)`), run the `models/train.py` script. It t
 - `--model_path`: Path where the trained model will be saved
 - `--regularizer`: L2-regularizer for the model log-likelihood
 
-Sorry, I forgot to report the values of the best regularizers (found by 10-fold cross-validation) in the paper. Here they are:
+Sorry, I forgot to report the value of the best regularizers (found by 10-fold cross-validation) in the paper. Here they are:
 
-| $\lambda$ | EP7  | EP8  |
-|-----------|------|------|
-| WoW       | 0.32 | 0.35 |
-| WoW(R)    | 0.39 | 0.39 |
+| \lambda     | EP7  | EP8  |
+|-------------|------|------|
+| `WoW`       | 0.32 | 0.35 |
+| `WoW(R)`    | 0.39 | 0.39 |
 
 You can then run the following command to train a model:
 
@@ -131,3 +131,20 @@ Run the [edit-graph.ipynb](notebooks/edit-graph.ipynb) notebook to reproduce the
 ## Requirements
 
 This project requires Python 3.6.
+
+## Citation
+
+To cite this work, use:
+
+```
+@inproceedings{kristof2020war,
+  author = {Kristof, Victor and Grossglauser, Matthias and Thiran, Patrick},
+  title = {War of Words: The Competitive Dynamics of Legislative Processes},
+  year = {2020},
+  booktitle = {Proceedings of The Web Conference 2020},
+  pages = {2803–2809},
+  numpages = {7},
+  location = {Taipei, Taiwan},
+  series = {WWW '20}
+}
+```
