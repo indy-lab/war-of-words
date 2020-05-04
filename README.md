@@ -24,7 +24,7 @@ Download the (raw) data from https://zenodo.org/record/3757714.
 Before [training the models](models/train.py), you first need to process the data and format them for input to the [model](lib/warofwords/model.py). Run the following commands to filter out dossiers and MEPs with less than 10 edits, split the data into 70/30 for training/testing, and fix the random seed:
 
 ```shell
-# Train the WoW model.
+# Process dataset for the WoW model.
 python mep_only.py \
   path/to/war-of-words-ep7.txt \
   output/to/meponly-ep7.pkl \
@@ -32,7 +32,7 @@ python mep_only.py \
   --split 0.7 \
   --seed 0
 
-# Train the WoW(R) model.
+# Process dataset for the WoW(R) model.
 python rapporteur_advantage.py \
   path/to/war-of-words-ep7.txt \
   output/to/rapadv-ep7.pkl \
@@ -41,7 +41,7 @@ python rapporteur_advantage.py \
   --seed 0
 ```
 
-Do the same for EP8 by replacing `ep7` by `ep8` in the commands above.
+Do the same for EP8 by replacing `ep7` by `ep8` in the above commands.
 
 This should have generated eight pickle files:
 
