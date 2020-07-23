@@ -1,4 +1,4 @@
-dhelpersataclasses==0.6
+dataclasses==0.6
 jupyter==1.0.0
 llvmlite==0.29.0
 matplotlib==3.1.1
