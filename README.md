@@ -4,6 +4,8 @@ Data and code for
 
 > Kristof, V., Grossglauser, M., Thiran, P., [*War of Words: The Competitive Dynamics of Legislative Processes*](https://infoscience.epfl.ch/record/275473/), The Web Conference, April 20-24, 2020, Taipei, Taiwan
 
+**Note:** The repo for *War of Words II: Enriched Models of Law-Making Processes* is [here](https://github.com/indy-lab/war-of-words-2).  
+
 ## Set up
 
 From the root of the repo, install the requirements and local library:
